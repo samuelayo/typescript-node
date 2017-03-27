@@ -1,0 +1,14 @@
+{
+  "name": "type-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.1.6"
+  }
+}

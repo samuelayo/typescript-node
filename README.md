@@ -1,0 +1,20 @@
+# typescript-node
+This repo is the codebase to the typescript with node tutorial written for scotch.io
+
+To use this repo, you would need to adhere to the following steps:
+
+- Have node.js installed on your system. if you dont have node.js installed, please visit [here](https://nodejs.org/en/download/) 
+
+- Install typescript globally, to do that, please run: `sudo npm install -g typescript --save`
+
+- Also, but optional, please install express globally, using `sudo npm install -g express`
+
+- You can then clone this repo using `git clone https://github.com/samuelayo/typescript-node.git`
+
+- After clonning the repo, please open a terminal and do the following :
+	1. cd typescript-node
+	2. npm install
+	
+- To see the gulp watch in action, run `npm test`  in a terminal.
+
+- To serve the application, please open another terminal, and run `node main.js`	
