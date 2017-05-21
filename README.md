@@ -1,5 +1,5 @@
 # typescript-node
-This repo is the codebase to the typescript with node tutorial written for scotch.io
+This repo is the codebase to the typescript with node tutorial 
 
 To use this repo, you would need to adhere to the following steps:
 
