@@ -11,8 +11,12 @@ To use this repo, you would need to adhere to the following steps:
 - You can then clone this repo using `git clone https://github.com/samuelayo/typescript-node.git`
 
 - After clonning the repo, please open a terminal and do the following :
-	1. cd typescript-node
-	2. npm install
+```
+// change directory to the current directory
+cd typescript-node
+//install required packages
+npm install
+```
 	
 - To see the gulp watch in action, run `npm test`  in a terminal.
 
