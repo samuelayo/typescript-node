@@ -1,5 +1,8 @@
 "use strict";
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", { value: true });
+=======
+>>>>>>> e0f594ba23c5ea2bf922aaf6a61939ab39981adc
 const express = require("express");
 // Creates and configures an ExpressJS web server.
 class App {
@@ -20,6 +23,7 @@ class App {
         let router = express.Router();
         // placeholder route handler
         router.get('/', (req, res, next) => {
+<<<<<<< HEAD
             res.send(`<html>
         <head>
           <title>Tutorial: HelloWorld</title>
@@ -34,8 +38,30 @@ class App {
 
         </body>
       </html>`);
+=======
+           res.send(
+                `<html>
+                  <head>
+                    <title>Tutorial: HelloWorld</title>
+                  </head>
+                  <body>
+                    <h1>HelloWorld Tutorial</h1>
+                    
+                <p>
+                  The current data and time is: 
+                  <strong>`+new Date()+`</strong>
+                </p>    
+                    
+                  </body>
+                </html>`
+            )
+>>>>>>> e0f594ba23c5ea2bf922aaf6a61939ab39981adc
         });
         this.express.use('/', router);
     }
 }
+<<<<<<< HEAD
+=======
+Object.defineProperty(exports, "__esModule", { value: true });
+>>>>>>> e0f594ba23c5ea2bf922aaf6a61939ab39981adc
 exports.default = new App().express;

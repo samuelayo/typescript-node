@@ -16,7 +16,11 @@ class App {
 
   // Configure Express middleware.
   private middleware(): void {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> e0f594ba23c5ea2bf922aaf6a61939ab39981adc
   }
 
   // Configure API endpoints.
@@ -27,6 +31,7 @@ class App {
     let router = express.Router();
     // placeholder route handler
     router.get('/', (req, res, next) => {
+<<<<<<< HEAD
 
       res.send(
         `<html>
@@ -44,6 +49,11 @@ class App {
         </body>
       </html>`
       );
+=======
+      res.json({
+        message: 'Hello World!'
+      });
+>>>>>>> e0f594ba23c5ea2bf922aaf6a61939ab39981adc
     });
     this.express.use('/', router);
   }
