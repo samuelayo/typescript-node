@@ -6,7 +6,7 @@ To use this repo, you would need to adhere to the following steps:
 - Have node.js installed on your system. if you dont have node.js installed, please visit [here](https://nodejs.org/en/download/) 
 
 
-- Install typescript, nodemon and gulp globally, to do that, please run: `sudo npm install -g typescript nodemon gulp --save`
+- Install typescript, nodemon and gulp globally, to do that, please run: `npm install -g typescript nodemon gulp `
 
 - You can then clone this repo using `git clone https://github.com/samuelayo/typescript-node.git`
 
